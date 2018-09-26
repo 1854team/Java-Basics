@@ -1,3 +1,7 @@
+/**
+* Credit goes to: https://www.tutorialspoint.com/java/java_encapsulation.htm
+*/
+
 public class EncapTest {
     private String name;
     private String idNum;
