@@ -1,7 +1,3 @@
-/**
-* Credit goes to: https://www.tutorialspoint.com/java/java_encapsulation.htm
-*/
-
 public class EncapTest {
     private String name;
     private String idNum;
@@ -25,5 +21,14 @@ public class EncapTest {
 
     public void setIdNum (String newId) {
         idNum = newId;
+    }
+
+    public static void main(String rgs[]) {
+        EncapTest encap = new EncapTest();     //creates new instance of EncapTest
+        encap.setName("James");                      //user can create new name for private name variable
+        encap.setAge(20);
+        encap.setIdNum("12343ms");
+
+        System.out.println("Name: " + encap.getName() + " \n" + "Age: " + encap.getAge());
     }
 }
