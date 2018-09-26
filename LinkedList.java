@@ -1,3 +1,4 @@
+//Credit goes to: https://www.geeksforgeeks.org/linked-list-set-1-introduction/
 public class LinkedList {
 
 	Node head;  //head of list
