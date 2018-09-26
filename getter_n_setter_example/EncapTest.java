@@ -23,7 +23,7 @@ public class EncapTest {
         idNum = newId;
     }
 
-    public static void main(String rgs[]) {
+    public static void main(String args[]) {
         EncapTest encap = new EncapTest();     //creates new instance of EncapTest
         encap.setName("James");                      //user can create new name for private name variable
         encap.setAge(20);
